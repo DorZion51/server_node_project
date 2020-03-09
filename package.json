@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "engines": {
+    "node":"10.16.3",
+    "npm": "6.9.0"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DorZion51/server_node_project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DorZion51/server_node_project/issues"
+  },
+  "homepage": "https://github.com/DorZion51/server_node_project#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
