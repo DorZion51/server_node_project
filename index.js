@@ -19,9 +19,9 @@ app.get(
 
 passport.use(
     new GoogleStartegy({
-    ClientID:keys.googleClientID,
-    ClientSecret:keys.googleClientSecret,
-    callbackURL:'/auth/google/callback'
+            clientID:keys.googleClientID,
+            clientSecret:keys.googleClientSecret,
+            callbackURL:'/auth/google/callback'
     },
     accessToken=>{
     console.log(accessToken);
